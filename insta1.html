@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>instagram.com</title>
+        <style>
+            body{
+                top:50%;
+                left: 50%;
+                position: absolute;
+                transform: translate(-50%,-50%);
+            }
+            .box1{
+               border:1px solid;
+               box-sizing:border-box;
+               border-radius:1px;
+               border-color: rgb(191, 187, 187);
+               display:flex;
+               flex-direction:column;
+               align-items:center;
+               justify-content:middle;
+               height:410px;
+               width:350px;
+               /* margin-top:40px;
+               margin-left: 200px; */
+            
+            }
+            .head{
+                padding-top:40px;
+                padding-bottom:30px;
+                padding-right:10px;
+                padding-left:10px;
+                cursor:pointer;
+            }
+            .email{
+                margin-top:10px;
+                margin-bottom:3px;
+                padding:4px 4px 4px 4px;
+                width:250px;
+                font-family:arial;
+                font-size:12px;
+                height: 24px;
+            }
+            .password{
+                margin-top:3px;
+                margin-bottom:8px;
+                padding:4px 4px 4px 4px;
+                width:250px;
+                font-family:arial;
+                font-size:12px;
+                height:24px;
+            }
+            .login{
+                margin-top:8px;
+                margin-bottom:10px;
+                padding:4px 4px 4px 4px;
+                width:260px;
+                height:30px;
+                border:none;
+                background-color: rgb(66, 185, 250);
+                color:white;
+                border-radius:8px;
+                font-family: arial;
+            }
+            .with{
+                margin-top:25px;
+                margin-bottom:10px;
+                margin-left:65px;
+                font-family: arial;
+                font-size:14px;
+                color:rgb(10, 10, 104);
+                display:grid;
+                grid-template-columns:22px 1fr;
+                cursor:pointer;
+            }
+            .another{
+                margin-top:22px;
+                margin-bottom:10px;
+                margin-left:100px;
+                font-family: arial;
+                font-size:12px;
+                color:rgb(38, 38, 113);
+                font-weight:1px;
+                cursor:pointer;
+            }
+            .fb1{
+                width:15px;
+                height:15px;
+            }    
+    </style>
+    </head>
+    <body>
+        <div class="box1">
+           <div  class="head" display:block;><img src="thumbnails/cat_files/insta.png"></div>
+           <div>
+              <input class="email" type="text" placeholder="Phone number, username, or email"><br>
+              <input  class="password" type="password" placeholder="Password"><br>
+              <button class="login">Log in</button>
+              <div style="display:flex;flex-direction:row;justify-content:space-between;margin-top:8px;">
+                <div style="width:100px;color:lightgray;"><hr></div>
+                <div class="or" style="font-family:arial;font-size:14px;color:rgb(78, 77, 77);">OR</div>
+                <div style="width:95px;"><hr></div>
+              </div>
+              <div class="with"><span class="fbb"><img class="fb1" src="thumbnails/cat_files/fbb.jpg"></span> Log in with Facebook?</div>
+              <div class="another">Forgot password?</div>
+            </div> 
+        </div>
+             
+        </script>
+    </body>
+</html>
